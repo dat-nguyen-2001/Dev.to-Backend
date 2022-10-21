@@ -22,7 +22,8 @@ import entities from './typeorm';
         database: configService.get('DB_NAME'),
         entities: entities,
         synchronize: true,
-        ssl: true
+        ssl: true,
+        dia
       }),
       inject: [ConfigService],
     }),
