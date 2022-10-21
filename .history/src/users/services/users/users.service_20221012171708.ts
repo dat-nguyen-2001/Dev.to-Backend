@@ -1,6 +1,6 @@
 import { Injectable, NotFoundException, Param } from '@nestjs/common';
 import { User } from 'src/typeorm/user.entity';
-import * as bcrypt from 'bcryptjs';
+import * as bcrypt from 'bcrypt';
 import { AuthCredentialsDto } from 'src/dtos/auth-credentials.dto';
 import { JwtService } from "@nestjs/jwt";
 import { JwtPayload } from 'src/users/jwt-payload.interface';
