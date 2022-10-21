@@ -20,7 +20,6 @@ import entities from './typeorm';
         // username: configService.get('DB_USERNAME'),
         // password: configService.get('DB_PASSWORD'),
         // database: configService.get('DB_NAME'),
-        url: process.env.DATABASE_URL,
         entities: entities,
         synchronize: false,
         ssl: {
